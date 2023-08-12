@@ -6,12 +6,12 @@ import styles from "../styles/Home.module.css";
 export default function MintContainer() {
   return (
     <div className={styles.collectionContainer}>
-      <h1>Edition Drop</h1>
+      <h1>Check</h1>
 
-      <p>Claim your Character NFT to start playing!</p>
+      <p>Verify your LUV NFT to start playing!</p>
 
       <div className={`${styles.nftBox} ${styles.spacerBottom}`}>
-        <Image src="/mine.gif" style={{ height: 200 }} alt="mine" />
+        <Image src="/check.png" style={{ height: 200 }} alt="mine" />
       </div>
 
       <div className={styles.smallMargin}>

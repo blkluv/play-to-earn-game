@@ -66,7 +66,7 @@ export default function Play() {
       {pickaxeContract && miningContract ? (
         <>
           <h2 className={`${styles.noGapTop} ${styles.noGapBottom}`}>
-            Your Owned Pickaxes
+            Your Owned LUV NFTS
           </h2>
           <div
             style={{
