@@ -3,7 +3,7 @@ import type { AppProps } from "next/app";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const activeChain = "mainnet";
+  const activeChain = "matic";
 
   return (
     <ThirdwebProvider activeChain={activeChain}>
